@@ -44,9 +44,57 @@ body
 	width: 100%
 	height: 100vh
 
+.float-right
+	float: right
 
+.opacity-background
+	width: 100%
+	height: 100%
+	background: rgba(16, 58, 255, 0.25)
 
-
+.top-section
+	position: absolute
+	top: 0px
+	left: 0px
+	width: 100%
+	z-index: 10
+	.top-contact
+		height: 55px
+	ul
+		margin: 5px 0
+		padding: 0px
+		li
+			list-style-type: none
+			display: inline-block
+			margin: 0px 10px
+			color: white
+			font-size: 16px
+			a
+				color: white
+			&:nth-child(2n)
+				color: #49E98C
+	.social-icons
+		li
+			margin: 0px 4px
+	header
+		height: 100px
+		background: #F0F2F5
+		box-shadow: 0px 17px 21px #103AFF
+		padding-top: 30px
+		nav
+			ul
+				display: flex
+				justify-content: space-between
+				text-transform: uppercase
+				a
+					color: #103AFF
+				li:last-child
+					background: #49E98C
+					padding: 6px 32px
+					margin-top: -6px
+					border-radius: 30px
+					a
+						color: white
 
 
 @import "media" // Всегда в конце
