@@ -1,5 +1,5 @@
 {
-  "name": "optimizedhtml",
+  "name": "test",
   "version": "2.0.1",
   "description": "OptimizedHTML - Start HTML Template",
   "main": "index.js",
@@ -23,5 +23,16 @@
     "gulp-uglify": "^2.1.2",
     "gulp-util": "^3.0.8",
     "vinyl-ftp": "^0.6.0"
-  }
+  },
+  "dependencies": {
+    "owl.carousel": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DimaFreund/BrandFactory.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DimaFreund/BrandFactory/issues"
+  },
+  "homepage": "https://github.com/DimaFreund/BrandFactory#readme"
 }
